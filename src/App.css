@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,208 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  padding: 20px;
+  background-color: #333338;
+  color: #7f7f7f ;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer-movies ul,
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-movies ul li,
+.footer-links ul li {
+  display: inline;
+}
+
+.footer-movies ul li::after,
+.footer-links ul li::after {
+  content: " | ";
+  margin: 0 5px;
+}
+
+.footer-links ul li:last-child::after {
+  content: none;
+}
+
+.footer-social .social-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.footer-social .social-link:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.footer-links li {
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+/* Add hover effect for all <li> elements under "Movies Now Showing in Bengaluru" and "Upcoming Movies in Bengaluru" */
+.footer-movies ul li:hover,
+.footer-movies ul li:hover {
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.contact-button {
+  background-color: #ec5e71;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px; 
+  cursor: pointer;
+  font-size: 16px;
+
+  .footer-icon {
+      width: 20px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 10px; /* Adjust spacing as needed */
+    }
+}
+
+
+.contact-button {
+  display: inline-block; /* Ensure Contact today! appears inline */
+  margin-left: 350px; /* Adjust the margin as needed to separate the button from the text */
+}
+
+.footer .list-your-show {
+  font-size: 18px; /* Change the font size to your desired value */
+  color: white; /* Change the color to your desired value */
+  margin: 11px 0;
+  padding: 10px; 
+  font-weight: bold;
+}
+
+.footer .book-my-show {
+  color: white; /* Change the color to your desired value */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .support {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      
+} */
+
+.support {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-evenly;
+}
+
+.image-and-text {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+}
+
+.cc {
+margin-top: 10px;
+}
+
+.rbc {
+  margin-top: 10px;
+  }
+
+.sn 
+{
+      margin-top: 10px;
+      }
+
+
+/* BookMyShow logo container */
+.bms-logo-container {
+  display: flex;
+  align-items: center; /* Center content horizontally */
+  margin-top: 20px; /* Adjust margin as needed */
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+/* BookMyShow logo */
+.bms-logo {
+  width: auto;
+  height: 40px; /* Adjust height as needed */
+  margin: 0 20px; /* Adjust margin as needed */
+}
+
+/* Line style */
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #5d5d5f; /* Adjust color as needed */
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-container a {
+  margin: 0 10px; /* Adjust the margin as needed */
+
+
+}
+
+.social-media-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+.social-media-container svg:not(:last-child) {
+  margin-right: 10px; /* Adjust the value to increase or decrease the gap */
+}
+
+
+.copyright {
+  text-align: center;
+  font-size: 11.5px;
+  margin-bottom: 1px;
+}
+
+.content {
+  margin-top: 1px;
+  font-size: 11.5px;
+  margin-bottom: 1px;
+  text-align: center;
+
+}
+
+.punishable {
+  text-align: center;
+  font-size: 11.5px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
